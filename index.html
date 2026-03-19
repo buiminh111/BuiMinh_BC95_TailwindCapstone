@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Capstone</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="." />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/css/splide.min.css"
     />
   </head>
   <body>
@@ -19,9 +22,9 @@
         >
           <div id="logo" class="px-5">
             <span class="font-bold text-indigo-600">Astro</span>
-            <span class="text-slate-600">ship</span>
+            <span class="text-gray-600">ship</span>
             <span
-              class="uppercase mt-0.5 leading-none text-[10px] ml-1 font-bold bg-gray-200 text-slate-700 px-2 py-1 rounded-md"
+              class="uppercase mt-0.5 leading-none text-[10px] ml-1 font-bold bg-gray-200 text-gray-700 px-2 py-1 rounded-md"
               >Pro
             </span>
           </div>
@@ -80,7 +83,7 @@
             >
               Try for Free
               <i
-                class="fa-solid fa-chevron-right text-[12px] transition-transform duration-200 group-hover:translate-x-3"
+                class="fa-solid fa-chevron-right text-[12px] transition-transform duration-200 group-hover:trangray-x-3"
               ></i>
             </button>
           </div>
@@ -149,7 +152,7 @@
             >
               Try for Free
               <i
-                class="fa-solid fa-chevron-right text-[12px] transition-transform duration-200 group-hover:translate-x-3"
+                class="fa-solid fa-chevron-right text-[12px] transition-transform duration-200 group-hover:trangray-x-3"
               ></i>
             </button>
           </div>
@@ -158,7 +161,7 @@
     </header>
 
     <section id="hero-section">
-      <div class="max-w-screen-xl mx-auto px-10 lg:px-5">
+      <div class="max-w-screen-xl mx-auto px-10 lg:px-10">
         <div class="w-full flex flex-col lg:flex-row lg:py-[5rem]">
           <div
             class="hero-text-wrap flex flex-col gap-5 mt-[5rem] w-full lg:w-[50%]"
@@ -192,7 +195,7 @@
             <img
               src="./src/img/hero-screenshot.dpXn-2za_Z252oyA.avif"
               alt=""
-              class="w-full h-full object-contain"
+              class="w-full h-[280px] flex flex-col justify-between object-contain"
             />
           </div>
         </div>
@@ -223,6 +226,291 @@
         </div>
       </div>
     </section>
+
+    <section id="two-col features">
+      <div class="max-w-screen-xl mx-auto px-10">
+        <div class="flex flex-col items-center justify-center mt-24">
+          <span
+            class="bg-purple-100 border border-purple-200 text-purple-600 rounded-full text-xs font-medium px-3 py-1"
+            >TWO-COL FEATURES
+          </span>
+          <h2 class="text-4xl lg:text-5xl font-bold mt-4 text-center">
+            Supercharge Your Workflows
+          </h2>
+          <p class="text-lg mt-4 text-gray-600 text-center">
+            Unlock your team's true potential with our state-of-the-art SaaS
+            platform. From intelligent task management to real-time
+            collaboration and top-notch data security, we have everything you
+            need to streamline your workflows and achieve high productivity.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 py-10">
+          <div class="grid place-items-center">
+            <div class="w-full h-[500px] overflow-hidden">
+              <img
+                src="./src/img/6.SnSOjqTF_Z2kOY0y.avif"
+                alt=""
+                class="w-full h-[280px] flex flex-col justify-between object-contain"
+              />
+            </div>
+          </div>
+          <div class="grid place-items-start py-10">
+            <span
+              class="bg-purple-100 border border-purple-200 text-purple-600 rounded-full text-xs font-medium px-3 py-1"
+              >Simplified Workflows
+            </span>
+            <h2 class="text-4xl lg:text-5xl font-medium mt-4 text-left">
+              Experience the Ultimate Boost in Productivity with Our Intuitive
+              Platform
+            </h2>
+            <p class="text-lg mt-4 text-gray-600 text-left">
+              Streamline your tasks and collaborate seamlessly with our
+              cutting-edge SaaS startup platform. Unlock the potential of your
+              team and take productivity to new heights
+            </p>
+
+            <ul class="mt-6 text-left list-none">
+              <li class="flex items-center gap-3 text-gray-800 mt-3">
+                <i class="fa-solid fa-circle-check"></i>
+                <span class="text-md">Intelligent Task Management</span>
+              </li>
+              <li class="flex items-center gap-3 text-gray-800 mt-3">
+                <i class="fa-solid fa-circle-check"></i>
+                <span class="text-md">Real-time Collaboration</span>
+              </li>
+              <li class="flex items-center gap-3 text-gray-800 mt-3">
+                <i class="fa-solid fa-circle-check"></i>
+                <span class="text-md">Data Security & Privacy</span>
+              </li>
+            </ul>
+
+            <div class="flex items-center gap-4 mt-6 w-[ullw-full100%]">
+              <button
+                class="group bg-indigo-700 rounded-full px-4 py-2 text-white text-sm w-full"
+              >
+                Start 14-day trial
+                <i
+                  class="fa-solid fa-chevron-right text-[12px] px-2 transition-transform duration-200 group-hover:trangray-x-3"
+                ></i>
+              </button>
+
+              <button
+                class="border border-indigo-700 rounded-full px-8 py-2 text-indigo-700 bg-white text-sm text-center w-full"
+              >
+                Contact Sales
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 py-10">
+          <div class="grid place-items-center lg:order-2">
+            <div class="w-full h-[500px] overflow-hidden">
+              <img
+                src="./src/img/2.CV1PrsFe_ZDeQkF.avif"
+                alt=""
+                class="w-full h-[280px] flex flex-col justify-between object-contain"
+              />
+            </div>
+          </div>
+
+          <div class="grid place-items-start lg:order-1">
+            <span
+              class="bg-purple-100 border border-purple-200 text-purple-600 rounded-full text-xs font-medium px-3 py-1"
+              >AI-Powered Insights
+            </span>
+            <h2 class="text-4xl lg:text-5xl font-medium mt-4 text-left">
+              Supercharge Your Marketing Strategy with Advanced Analytics
+            </h2>
+            <p class="text-lg mt-4 text-gray-600 text-left">
+              Harness the potential of AI-driven marketing analytics to optimize
+              your campaigns, understand your audience better, and achieve
+              unprecedented growth.
+            </p>
+
+            <ul class="mt-6 text-left list-none">
+              <li class="flex items-center gap-3 text-gray-800 mt-3">
+                <i class="fa-solid fa-circle-check"></i>
+                <span class="text-md">Intelligent Task Management</span>
+              </li>
+              <li class="flex items-center gap-3 text-gray-800 mt-3">
+                <i class="fa-solid fa-circle-check"></i>
+                <span class="text-md">Real-time Collaboration</span>
+              </li>
+              <li class="flex items-center gap-3 text-gray-800 mt-3">
+                <i class="fa-solid fa-circle-check"></i>
+                <span class="text-md">Data Security & Privacy</span>
+              </li>
+            </ul>
+
+            <div class="flex items-center gap-4 mt-6 w-[ullw-full100%]">
+              <button
+                class="group bg-indigo-700 rounded-full px-4 py-2 text-white text-sm w-full"
+              >
+                Start 14-day trial
+                <i
+                  class="fa-solid fa-chevron-right text-[12px] px-2 transition-transform duration-200 group-hover:trangray-x-3"
+                ></i>
+              </button>
+
+              <button
+                class="border border-indigo-700 rounded-full px-8 py-2 text-indigo-700 bg-white text-sm text-center w-full"
+              >
+                Contact Sales
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div class="max-w-screen-xl mx-auto px-10 py-24">
+        <!-- Header -->
+        <div class="flex flex-col items-center justify-center">
+          <h2 class="text-4xl lg:text-5xl font-bold mt-4 text-center">
+            Client Testimonials
+          </h2>
+          <p class="text-lg mt-4 text-gray-600 text-center">
+            Astroship is trusted by the world's leading companies and brands.
+          </p>
+        </div>
+
+        <!-- SLIDER -->
+        <div class="splide mt-14">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <!-- Slide 1 -->
+              <li class="splide__slide px-2">
+                <div
+                  class="bg-white border border-gray-100 rounded-2xl shadow-sm p-8 h-full flex flex-col justify-between"
+                >
+                  <p class="text-slate-600 text-md leading-relaxed">
+                    Astroship has transformed the way we manage our projects.
+                    Its well-designed interface and powerful features make it a
+                    must-have tool for any startup.
+                  </p>
+                  <div class="flex items-center gap-4 mt-6">
+                    <img
+                      src="https://astroship-pro.web3templates.com/_astro/photo-1624298357597-fd92dfbec01d_fgbs4.png"
+                      alt="John Doe"
+                      class="w-12 h-12 rounded-full object-cover"
+                    />
+                    <div>
+                      <h3 class="font-semibold text-neutral-800">John Doe</h3>
+                      <p class="text-sm text-slate-500">CEO at TechCorp</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Slide 2 -->
+              <li class="splide__slide px-2">
+                <div
+                  class="bg-white border border-gray-100 rounded-2xl shadow-sm p-8 h-full flex flex-col justify-between"
+                >
+                  <p class="text-slate-600 text-md leading-relaxed">
+                    As a marketing professional, I love using Astroship to
+                    streamline our marketing campaigns. The automation features
+                    and data analytics help us make data-driven decisions.
+                  </p>
+                  <div class="flex items-center gap-4 mt-6">
+                    <img
+                      src="https://astroship-pro.web3templates.com/_astro/photo-1607746882042-944635dfe10e_y0KcH.png"
+                      alt="Jane Smith"
+                      class="w-12 h-12 rounded-full object-cover"
+                    />
+                    <div>
+                      <h3 class="font-semibold text-neutral-800">Jane Smith</h3>
+                      <p class="text-sm text-slate-500">
+                        Marketing Manager at InnovateTech
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Slide 3 -->
+              <li class="splide__slide px-2">
+                <div
+                  class="bg-white border border-gray-100 rounded-2xl shadow-sm p-8 h-full flex flex-col justify-between"
+                >
+                  <p class="text-slate-600 text-md leading-relaxed">
+                    Astroship has revolutionized the way we handle customer
+                    support. The ticketing system and knowledge base have
+                    significantly reduced response times, leading to happier
+                    customers.
+                  </p>
+                  <div class="flex items-center gap-4 mt-6">
+                    <img
+                      src="https://astroship-pro.web3templates.com/_astro/photo-1639149888905-fb39731f2e6c_Z1IObYK.png"
+                      alt="Mike Johnson"
+                      class="w-12 h-12 rounded-full object-cover"
+                    />
+                    <div>
+                      <h3 class="font-semibold text-neutral-800">
+                        Mike Johnson
+                      </h3>
+                      <p class="text-sm text-slate-500">CTO at CloudNine</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- Slide 4 -->
+              <li class="splide__slide px-2">
+                <div
+                  class="bg-white border border-gray-100 rounded-2xl shadow-sm p-8 h-full flex flex-col justify-between"
+                >
+                  <p class="text-slate-600 text-md leading-relaxed">
+                    Astroship has simplified our employee management processes.
+                    From onboarding to performance evaluations, everything is
+                    now seamlessly organized in one place.
+                  </p>
+                  <div class="flex items-center gap-4 mt-6">
+                    <img
+                      src="https://astroship-pro.web3templates.com/_astro/photo-1586297135537-94bc9ba060aa_Z1a2h3D.png"
+                      alt="Emily Brown"
+                      class="w-12 h-12 rounded-full object-cover"
+                    />
+                    <div>
+                      <h3 class="font-semibold text-neutral-800">
+                        Emily Brown
+                      </h3>
+                      <p class="text-sm text-slate-500">
+                        HR Manager at ConnectCo
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/js/splide.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new Splide(".splide", {
+          type: "loop",
+          perPage: 3,
+          gap: "32px",
+          autoplay: true,
+          interval: 3000,
+          pauseOnHover: true,
+          arrows: false,
+          pagination: true,
+          breakpoints: {
+            1024: { perPage: 2 },
+            640: { perPage: 1 },
+          },
+        }).mount();
+      });
+    </script>
     <script src="./src/JS/index.js"></script>
   </body>
 </html>
